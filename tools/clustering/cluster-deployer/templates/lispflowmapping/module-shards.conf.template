@@ -32,58 +32,12 @@ module-shards = [
         ]
     },
     {
-        name = "topology"
+        name = "lispflowmapping"
         shards = [
             {
-                name="topology"
-                replicas = {{{REPLICAS_2}}}
-            }
-        ]
-    },
-    {
-        name = "inventory"
-        shards = [
-            {
-                name="inventory"
-                replicas = {{{REPLICAS_3}}}
-            }
-        ]
-    },
-    {
-        name = "toaster"
-        shards = [
-            {
-                name="toaster"
-                replicas = {{{REPLICAS_4}}}
-            }
-        ]
-    },
-    {
-        name = "car"
-        shards = [
-            {
-                name="car"
-                replicas = {{{REPLICAS_4}}}
-            }
-        ]
-    },
-    {
-        name = "people"
-        shards = [
-            {
-                name="people"
-                replicas = {{{REPLICAS_4}}}
-            }
-        ]
-    },
-    {
-        name = "car-people"
-        shards = [
-            {
-                name="car-people"
-                replicas = {{{REPLICAS_4}}}
+                name="lispflowmapping"
+                replicas = {{{REPLICAS_1}}}
             }
         ]
     }
-
 ]

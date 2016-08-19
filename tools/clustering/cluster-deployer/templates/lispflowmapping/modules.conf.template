@@ -12,39 +12,8 @@
 
 modules = [
     {
-        name = "inventory"
-        namespace = "urn:opendaylight:inventory"
-        shard-strategy = "module"
-    },
-
-    {
-        name = "topology"
-        namespace = "urn:TBD:params:xml:ns:yang:network-topology"
-        shard-strategy = "module"
-    },
-
-    {
-        name = "toaster"
-        namespace = "http://netconfcentral.org/ns/toaster"
-        shard-strategy = "module"
-    },
-
-    {
-        name = "car"
-        namespace = "urn:opendaylight:params:xml:ns:yang:controller:config:sal-clustering-it:car"
-        shard-strategy = "module"
-    },
-
-    {
-        name = "people"
-        namespace = "urn:opendaylight:params:xml:ns:yang:controller:config:sal-clustering-it:people"
-        shard-strategy = "module"
-    },
-
-    {
-        name = "car-people"
-        namespace = "urn:opendaylight:params:xml:ns:yang:controller:config:sal-clustering-it:car-people"
+        name = "lispflowmapping"
+        namespace = "urn:opendaylight:lfm:mappingservice"
         shard-strategy = "module"
     }
-
 ]
